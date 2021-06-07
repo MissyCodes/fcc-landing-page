@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <title>Missy's Cookies</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
+        <style>iframe {width:100%;height:100%;}</style>
+    </head>
+    <body>
+        <div class="bg-img">
+            <header id="header">
+                <a href="#"><img src="images/Missy's Cookies.png" alt="logo" id="header-img"></a>
+                <nav id="nav-bar">
+                    <ul class="nav-links">
+                        <li><a href="#Features" class="nav-link">Features</a></li>
+                        <li><a href="#Menu" class="nav-link">Menu</a></li>
+                        <li><a href="#Location" class="nav-link">Location</a></li>
+                    </ul>
+                    <div class="burger">
+                        <div class="line1" id="burgerBar"></div>
+                        <div class="line2" id="burgerBar"></div>
+                        <div class="line3" id="burgerBar"></div>
+                    </div>
+                </nav>
+            </header>
+
+            <div class="hero-text">
+                <h1>Every bite brings you closer to happiness!</h1>
+            </div>
+
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+                <input type="submit" value="Get those cookies!" id="submit">
+            </form>
+        </div>
+
+        <div id="Features">
+            <div class="feature" id="baked">
+                <img src="images/oven.svg" class="feature-img">
+                <h2>Baked to Order</h2>
+                <p>We guarantee ultimate freshness by baking all of our cookies to order. We don't pop them into the oven until you hit submit!</p>
+            </div>
+
+            <div class="feature" id="easy">
+                <img src="images/gift.svg" class="feature-img">
+                <h2>Easy to Gift</h2>
+                <p>Buy our cookies from anywhere as easy as 1...2...3! We'll make sure they get to the right place</p>
+            </div>
+
+            <div class="feature" id="yummy">
+                <img src="images/heart.svg" class="feature-img">
+                <h2>Yummy Delicious</h2>
+                <p>Using our grandmother's recipes, these tried and true cookies will not dissappoint.</p>
+            </div>
+        </div>
+
+        <div id="vid">
+            <video src="images/pexels-nicole-michalou-6138437.mp4" id="video" autoplay loop></video>
+        </div>
+
+        <h2 id="menu">Menu</h2>
+
+        <div id="Menu">
+
+            <div id="chocolate-chip">
+                <img src="images/chocolate-chip.png" class="cookies">
+                <h3>Chocolate Chip</h3>
+            </div>
+            
+            <div id="snickerdoodle">
+                <img src="images/snickerdoodle-stack.png" class="cookies">
+                <h3>Snickerdoodle</h3>
+            </div>
+            
+            <div id="sugar-cookie">
+                <img src="images/sugar-cookie.png" class="cookies">
+                <h3>Sugar Cookie</h3>
+            </div>
+        </div>
+
+        <div id="Location">
+            <div style="width: 100%"><iframe width="100%" height="25%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=25%25&amp;hl=en&amp;q=802%20Fairway%20Ave.%20New%20York,%20NY%2010028+(Missy's%20Cookies)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.maps.ie/draw-radius-circle-map/">Radius map calculator</a></div>
+        </div>
+
+        <footer>
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <p>Copyright 2021, Missy's Cookies</p>
+        </footer>
+        <script src="app.js"></script>
+    </body>
+</html>
